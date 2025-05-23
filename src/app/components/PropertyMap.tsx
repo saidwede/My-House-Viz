@@ -19,7 +19,7 @@ const PropertyMap = ({ properties, selectedProperty, onPropertySelect }: Propert
     if (!mapContainer.current) return;
 
     // Utiliser le token Mapbox fourni
-    mapboxgl.accessToken = 'pk.eyJ1Ijoic2FpZHdlZGUiLCJhIjoiY21iMHF5cWN1MHpkNDJtc2M3MWhyZWhweCJ9.yqScYxeO_gZZtGKrHgj1-A';
+    mapboxgl.accessToken = 'pk.eyJ1Ijoic2FpZHdlZGUiLCJhIjoiY21iMGwxbGp0MG14ZDJsczdjMDljZjl4eCJ9.OFeZLhhrH8lHgA3oWiF-Qw';
 
     map.current = new mapboxgl.Map({
       container: mapContainer.current,
