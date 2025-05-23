@@ -1,10 +1,9 @@
-"use client"
 import { useState, useMemo } from "react";
-import { Property, PropertyFilters } from "./types/property";
-import { mockProperties } from "./data/mockData";
-import PropertyMap from "./components/PropertyMap";
-import PropertyList from "./components/PropertyList";
-import PropertyFiltersComponent from "./components/PropertyFilters";
+import { Property, PropertyFilters } from "../types/property";
+import { mockProperties } from "../data/mockData";
+import PropertyMap from "../components/PropertyMap";
+import PropertyList from "../components/PropertyList";
+import PropertyFiltersComponent from "../components/PropertyFilters";
 import {
   Collapsible,
   CollapsibleContent,
